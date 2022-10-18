@@ -1,0 +1,246 @@
+* body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 642px;
+  padding: 25px 150px 0 150px;
+  background-color: #163A24;
+  flex-direction: column;
+}
+.header__menu {
+  display: flex;
+  width: 1440px;
+  height: 58px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+.header__menu-link {
+  color: white;
+  text-decoration: none;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+.header__menu-line {
+  display: flex;
+  color: white;
+  width: 400px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__menu-number {
+  color: white;
+  text-decoration: none;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+.header__menu-button {
+  width: 141px;
+  height: 52px;
+  background-color: #198C36;
+  border-radius: 160px;
+  border: 1px;
+  color: white;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+.header__line2 {
+  display: flex;
+  flex-direction: row;
+}
+.header__line2-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.header__line2-text-1 {
+  font-family: "Recoleta";
+  font-weight: 600;
+  font-size: 48px;
+}
+.header__line2-text-2 {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 18px;
+}
+.header__line2-img {
+  display: flex;
+  align-self: center;
+  margin-left: 230px;
+}
+
+.section {
+  color: #163A24;
+  margin-top: 130px;
+}
+.section__block1-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 228px 0 228px;
+}
+.section__block1-1text {
+  display: flex;
+  margin-left: 98px;
+  display: flex;
+  flex-direction: column;
+}
+.section__block1-1text-max {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+}
+.section__block1-1text-low {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.section__block1-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 0 228px 0 228px;
+}
+.section__block1-2text {
+  margin-right: 98px;
+  display: flex;
+  flex-direction: column;
+}
+.section__block1-2text-max {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+}
+.section__block1-2text-low {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.section__block2-text {
+  text-align: center;
+  padding: 114px 450px 66px 450px;
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+}
+.section__block2-list {
+  width: 984px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 0 0 120px 0;
+  margin: 0 auto;
+}
+.section__block3 {
+  width: 100%;
+  height: 568px;
+  background-color: #163A24;
+  margin: 0 auto;
+}
+.section__block3-text {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  padding: 66px 0 34px 0;
+}
+.section__block3-img {
+  display: flex;
+  margin: 0 auto;
+}
+.section__block3-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-around;
+}
+.section__block3-list-element {
+  align-self: center;
+  color: white;
+  width: 295px;
+  height: 254px;
+  list-style-type: none;
+  text-align: center;
+  margin: auto;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.section__block3-list-img {
+  display: flex;
+  margin: auto;
+  margin-bottom: 28px;
+}
+.section__block4 {
+  width: 100%;
+  height: 775px;
+  background-color: #FFD5C8;
+  padding: 120px 0 0 0;
+}
+.section__block4-text {
+  text-align: center;
+}
+.section__block4-text-1 {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+}
+.section__block4-text-2 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.section__block4-img {
+  display: flex;
+  margin: auto;
+}
+.section__block5 {
+  padding: 180px 20% 0 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.section__block5-text {
+  text-align: center;
+}
+.section__block5-text-1 {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+}
+.section__block5-text-2 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.section__block5-img {
+  display: flex;
+  margin-left: 10%;
+}/*# sourceMappingURL=lesson15.css.map */
